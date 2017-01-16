@@ -188,6 +188,7 @@
 {
     [self.view endEditing:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self showSuccessAlert:@"Oops!" andMessage:@"Offer details are not yet implemented!"];
 }
 
 #pragma mark - LGRefreshView Delegate
