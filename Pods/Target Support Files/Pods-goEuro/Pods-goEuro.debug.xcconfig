@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/DACircularProgress" "${PODS_ROOT}/Headers/Public/DZNSegmentedControl" "${PODS_ROOT}/Headers/Public/ISMessages" "${PODS_ROOT}/Headers/Public/JTMaterialSwitch" "${PODS_ROOT}/Headers/Public/LGRefreshView"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/DACircularProgress" "$PODS_CONFIGURATION_BUILD_DIR/DZNSegmentedControl" "$PODS_CONFIGURATION_BUILD_DIR/ISMessages" "$PODS_CONFIGURATION_BUILD_DIR/JTMaterialSwitch" "$PODS_CONFIGURATION_BUILD_DIR/LGRefreshView"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/DACircularProgress" -isystem "${PODS_ROOT}/Headers/Public/DZNSegmentedControl" -isystem "${PODS_ROOT}/Headers/Public/ISMessages" -isystem "${PODS_ROOT}/Headers/Public/JTMaterialSwitch" -isystem "${PODS_ROOT}/Headers/Public/LGRefreshView"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"DACircularProgress" -l"DZNSegmentedControl" -l"ISMessages" -l"JTMaterialSwitch" -l"LGRefreshView" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
