@@ -23,7 +23,6 @@ PODS:
   - DACircularProgress (2.3.1)
   - DZNSegmentedControl (1.3.3)
   - ISMessages (1.1)
-  - JTMaterialSwitch (1.1)
   - LGRefreshView (1.0.5):
     - DACircularProgress (~> 2.3.0)
 
@@ -31,7 +30,6 @@ DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
   - DZNSegmentedControl
   - ISMessages
-  - JTMaterialSwitch
   - LGRefreshView
 
 SPEC CHECKSUMS:
@@ -39,9 +37,8 @@ SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DZNSegmentedControl: ecc2f31c5581cce10c4d766ea4bd2d0781814c1f
   ISMessages: 7ebb5ff68170ef0e32460d270f379b6080297e39
-  JTMaterialSwitch: cad8093c3773ff9f6c60005c98d269eb869b5e04
   LGRefreshView: 34746afadbd23de8d1449cab15f3d89269645d43
 
-PODFILE CHECKSUM: 8091af28f886365acee50a91292d75cce8b9fea1
+PODFILE CHECKSUM: 77601f83b945deac8b5395bc771ae2e2f708efe2
 
 COCOAPODS: 1.0.1

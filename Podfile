@@ -5,7 +5,6 @@ target 'goEuro' do
     pod 'AFNetworking', '~> 2.6.3'
     pod 'LGRefreshView'
     pod 'ISMessages'
-    pod 'JTMaterialSwitch'
     pod 'DZNSegmentedControl'
 
     # Uncomment this line if you're using Swift or would like to use dynamic frameworks
